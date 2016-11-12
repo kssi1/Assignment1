@@ -52,7 +52,7 @@ function signalConverting(data)
 	}
 	else
 	{
-			data = "off"
+		data = "off"
 	}
 	if data === last
 	{
