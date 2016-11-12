@@ -69,6 +69,11 @@ function signalConverting(data)
 			chara += '_'
 			last = data
 		}
+		else if (counter<3 && last === "off")
+		{
+			counter = 0
+			last = data
+		}
 		else if ((counter >=3 && counter < 6) && last === "off")
 		{
 			//search at lookup table
