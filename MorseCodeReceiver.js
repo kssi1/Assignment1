@@ -27,23 +27,6 @@
 // ADD YOUR ADDITIONAL FUNCTIONS AND GLOBAL VARIABLES HERE
 var counter = 0;
 var last,chara,word;
-/*
- * This function is called once per unit of time with camera image data.
- *
- * Input : Image Data. An array of integers representing a sequence of pixels.
- *		 Each pixel is representing by four consecutive integer values for
- *		 the 'red', 'green', 'blue' and 'alpha' values.  See the assignment
- *		 instructions for more details.
- * Output: You should return a boolean denoting whether or not the image is
- *		 an 'on' (blue) signal.
- */
-function decodeCameraImage(data)
-{
-	// ADD YOUR CODE HERE
-
-	return false;
-}
-
 function signalConverting(data)
 {
 	if data === true
@@ -85,4 +68,20 @@ function signalConverting(data)
 		}
 		counter = 0
 	}
+}
+/*
+ * This function is called once per unit of time with camera image data.
+ *
+ * Input : Image Data. An array of integers representing a sequence of pixels.
+ *		 Each pixel is representing by four consecutive integer values for
+ *		 the 'red', 'green', 'blue' and 'alpha' values.  See the assignment
+ *		 instructions for more details.
+ * Output: You should return a boolean denoting whether or not the image is
+ *		 an 'on' (blue) signal.
+ */
+function decodeCameraImage(data)
+{
+	// ADD YOUR CODE HERE
+
+	return false;
 }
